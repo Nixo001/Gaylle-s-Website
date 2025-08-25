@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binibining Tuburan - Miss Tourism 2024</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="quiz.js" defer></script>
+    <script src="mobile-menu.js" defer></script>
+    <script src="gallery-modal.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="C:\Users\Nicoj\CascadeProjects\sweet\logo.jpg" alt="Binibining Tuburan Logo" class="logo-img">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#advocacy">Advocacy</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Allyssa Gaylle G. Bancog</h1>
+            <h2 class="hero-subtitle">Binibining Tuburan Tourism 2024</h2>
+            <p class="hero-quote">"Dedicated to empowering communities through education and sustainable development, while embracing the beauty of our cultural heritage"</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <i class="fas fa-crown"></i>
+                    <span>Top 10 Finalist</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-heart"></i>
+                    <span>Community Advocate</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Education Champion</span>
+                </div>
+            </div>
+            <div class="cta-buttons">
+                <a href="#portfolio" class="cta-button primary-button">View Portfolio</a>
+                <a href="#advocacy" class="cta-button secondary-button">My Advocacy</a>
+                <a href="#contact" class="cta-button secondary-button">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="video" class="video-section">
+        <div class="video-container">
+            <video id="main-video" controls muted playsinline>
+                <source src="C:\Users\Nicoj\CascadeProjects\sweet\Q&A.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-info">
+                <h3>My Journey</h3>
+                <p>Watch my journey as Ms. Tuburan Tourism 2024</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz" class="quiz-section">
+        <h2>Get to Know Allyssa</h2>
+        <div id="quiz-container" class="quiz-container">
+            <div id="quiz-question" class="quiz-question"></div>
+            <div id="quiz-options" class="quiz-options"></div>
+            <div id="quiz-feedback" class="quiz-feedback"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+            </div>
+            <div class="profile-image">
+                <img src="C:\Users\Nicoj\CascadeProjects\sweet\profile.jpg" alt="Allyssa Gaylle G. Bancog">
+            </div>
+        </div>
+                <h3>My Story</h3>
+                <p>Meet Allyssa Gaylle G. Bancog, a passionate advocate and dedicated individual who believes in making a positive impact through her journey as Binibining Tourism 2024 Finalist.</p>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <span>Name: Allyssa Gaylle G. Bancog</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-crown"></i>
+                        <span>Title: Ms. Tourism 2024 Finalist</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Education: [Your Educational Background]</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-heart"></i>
+                        <span>Interests: [Your Interests and Talents]</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-quote-left"></i>
+                        <span>"[Your Favorite Quote]"</span>
+                    </div>
+                </div>
+    </section>
+    <section id="gallery" class="gallery-preview" data-gallery-id="tuburan">
+        <h2>Binibining Tuburan 2024 Journey</h2>
+        <button class="view-gallery-btn" data-gallery="tuburan">View Gallery</button>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-category="competition">
+                <img src="../sweet/competition.png" alt="Binibining Tuburan Competition">
+                <div class="gallery-overlay">
+                    <h3>Competition</h3>
+                    <p>Striving for excellence</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="swimwear">
+                <img src="../sweet/swimwear.png" alt="Binibining Tuburan Swimwear">
+                <div class="gallery-overlay">
+                    <h3>Swimwear Competition</h3>
+                    <p>Confidence and elegance in swimwear</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="crown">
+                <img src="../sweet/crown.jpg" alt="Binibining Tuburan Crown">
+                <div class="gallery-overlay">
+                    <h3>Crown Moment</h3>
+                    <p>Wearing the crown with pride</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="traditional">
+                <img src="../sweet/traditional.png" alt="Binibining Tuburan Traditional Wear">
+                <div class="gallery-overlay">
+                    <h3>Traditional Wear</h3>
+                    <p>Celebrating cultural heritage</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="winner">
+                <img src="../sweet/winner.jpg" alt="Binibining Tuburan Winner">
+                <div class="gallery-overlay">
+                    <h3>Winner Announcement</h3>
+                    <p>Crowned Miss Tuburan Tourism 2024</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="gown">
+                <img src="../sweet/gown.jpg" alt="Binibining Tuburan Evening Gown">
+                <div class="gallery-overlay">
+                    <h3>Evening Gown</h3>
+                    <p>Grace and poise in evening wear</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="interview">
+                <img src="../sweet/interview.jpg" alt="Binibining Tuburan Interview">
+                <div class="gallery-overlay">
+                    <h3>Q&A</h3>
+                    <p>Answering questions with confidence</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="community">
+                <img src="../sweet/campaign.jpg" alt="Binibining Tuburan Community Service">
+                <div class="gallery-overlay">
+                    <h3>Campaign Event</h3>
+                    <p>Leading community initiatives</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tabuelan-journey" class="gallery-preview" data-gallery-id="tabuelan">
+        <h2>Miss Tabuelan 2025 Journey</h2>
+        <button class="view-gallery-btn" data-gallery="tabuelan">View Gallery</button>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-category="casual-wear">
+                <img src="../sweet/Tcasual.jpg" alt="Miss Tabuelan Casual Wear">
+                <div class="gallery-overlay">
+                    <h3>Casual Wear</h3>
+                    <p>Confidence in style</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="evening-gown">
+                <img src="../sweet/Tgown.jpg" alt="Miss Tabuelan Evening Gown">
+                <div class="gallery-overlay">
+                    <h3>Evening Gown</h3>
+                    <p>Elegance personified</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="competition">
+                <img src="../sweet/Tcompetition.jpg" alt="Miss Tabuelan Competition">
+                <div class="gallery-overlay">
+                    <h3>Competition</h3>
+                    <p>Representing with pride</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="swimwear">
+                <img src="../sweet/Tswimwear.jpg" alt="Miss Tabuelan Swimwear">
+                <div class="gallery-overlay">
+                    <h3>Swimwear</h3>
+                    <p>Confidence by the shore</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="talent-show">
+                <img src="../sweet/Talent.jpg" alt="Miss Tabuelan Talent Show">
+                <div class="gallery-overlay">
+                    <h3>Talent Show</h3>
+                    <p>Showcasing unique abilities</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="gallery-modal" class="gallery-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="gallery-container" class="gallery-container">
+            </div>
+        </div>
+    </div>
+
+    <section id="advocacy" class="advocacy">
+        <h2>My Mission Beyond the Stage</h2>
+        <div class="advocacy-content">
+            <div class="advocacy-text">
+                <p>As Miss Tuburan Tourism 2024, my advocacy focuses on empowering youth through education. Growing up, I saw firsthand the challenges faced by students in our community, which inspired me to take action. Through my platform, I've organized educational workshops, partnered with local schools, and launched mentorship programs to support students.</p>
+                <p>One of my proudest achievements is establishing a scholarship fund that has helped over 50 underprivileged students. I also work with local organizations to promote environmental awareness and sustainable practices.</p>
+            </div>
+            <div class="advocacy-media">
+                <div class="advocacy-image">
+                    <img src="../sweet/community.jpg" alt="Campaign Event">
+                    <div class="image-overlay">
+                        <h3>Community Engagement</h3>
+                        <p>Empowering through community service</p>
+                    </div>
+                </div>
+                <div class="advocacy-video">
+                    <video controls width="100%">
+                        <source src="../sweet/advocacy.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="qualifications" class="qualifications">
+        <h2>Beauty Pageant Qualifications</h2>
+        <div class="qualifications-grid">
+            <div class="qualification-card">
+                <i class="fas fa-birthday-cake"></i>
+                <h3>Age</h2>
+                <p>19 years old</p>
+            </div>
+            <div class="qualification-card">
+                <i class="fas fa-ruler-vertical"></i>
+                <h3>Height</h2>
+                <p>5'7" (170 cm)</p>
+            </div>
+            <div class="qualification-card">
+                <i class="fas fa-weight"></i>
+                <h3>Weight</h2>
+                <p>52 kg</p>
+            </div>
+            <div class="qualification-card">
+                <i class="fas fa-heart"></i>
+                <h3>Body Measurements</h2>
+                <p>34-24-34 inches</p>
+            </div>
+            <div class="qualification-card">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Education</h2>
+                <p>Bachelor's Degree in Nursing</p>
+            </div>
+            <div class="qualification-card">
+                <i class="fas fa-language"></i>
+                <h3>Languages</h2>
+                <p>English, Filipino</p>
+            </div>
+            <div class="qualification-card">
+                <i class="fas fa-star"></i>
+                <h3>Pageant Experience</h2>
+                <p>Binibining Tuburan 2024 Finalist</p>
+            </div>
+            <div class="qualification-card">
+                <i class="fas fa-trophy"></i>
+                <h3>Awards</h2>
+                <p>Miss Tuburan Tourism 2024</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements">
+        <h2>My Achievements</h2>
+        <div class="achievements-grid">
+            <div class="achievement-card">
+                <i class="fas fa-crown"></i>
+                <h3>Miss Tourism Tuburan 2024</h3>
+                <p>Winner - Miss Tourism Tuburan 2024</p>
+            </div>
+            <div class="achievement-card">
+                <i class="fas fa-trophy"></i>
+                <h3>Binibining Tuburan 2024</h3>
+                <p>Top 5 Finalist</p>
+                <p>Best in Swimwear</p>
+            </div>
+            <div class="achievement-card">
+                <i class="fas fa-star"></i>
+                <h3>Miss Tabuelan 2025</h3>
+                <p>Top 10 Finalist</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>What They Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <img src="../sweet/mentor.jpg" alt="Pageant Director">
+                <p class="testimonial-text">"Allyssa's dedication to her craft is truly inspiring. Her ability to light up the stage while staying true to her values makes her a remarkable role model."</p>
+                <p class="testimonial-author">- Maria Santos, Pageant Director</p>
+            </div>
+            <div class="testimonial-card">
+                <img src="../sweet/judge.jpg" alt="Beauty Pageant Judge">
+                <p class="testimonial-text">"Her performance in the swimwear competition was outstanding. Allyssa brings both grace and confidence to every competition she enters."</p>
+                <p class="testimonial-author">- Robert Tan, Pageant Judge</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.instagram.com/ellygaylle/" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/allyssa.bancog17" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.tiktok.com/@sweetsugarnspice?is_from_webapp=1&sender_device=pc" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-tiktok"></i></a>
+            </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p>&copy; 2025 Allyssa Gaylle G. Bancog. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
