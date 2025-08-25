@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Sitemap: https://allyssagaylle.com/sitemap.xml
+
+# Directives for specific crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl-delay in seconds
+Crawl-delay: 10
